@@ -16,4 +16,4 @@ This is what makes a RNS possible. More preciseley, given a list of coprime inte
 ```
 where `[a_1, a_2, ..., a_i]` is a unique list (called residues) for each value of `x`. This list is the RNS representation of some decimal integer `x` with bases `[n_1, n_2, ..., n_i]`
 
-To solve the system of equations above (this is needed when we convert from RNS form to decimal form) we use a [Satisfiability modulo theories solver](https://en.wikipedia.org/wiki/Satisfiability_modulo_theories) such as Z3.
+To solve the system of equations above (this is needed when we convert from RNS form to decimal form) we use a [Satisfiability modulo theories solver](https://en.wikipedia.org/wiki/Satisfiability_modulo_theories).
