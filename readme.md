@@ -7,7 +7,7 @@ This repo contains an implementation of an rns class for performing tests of mul
 
 ## Chinese Remainder Theorem (CRT)
 
-This is what makes a RNS possible. More preciseley, given a list of coprime integers `[n_1, n_2, ..., n_i]`, by the CRT we can write some decimal `x` in the range `0 < x < (n_1 * n_2 * ... * n_i) - 1` as the system of equations:
+This is what makes a RNS possible. More preciseley, given a list of pairwise-coprime integers `[n_1, n_2, ..., n_i]`, by the CRT we can write some decimal `x` in the range `0 < x < (n_1 * n_2 * ... * n_i) - 1` as the system of equations:
 ```
   x ≡ a_1 mod n_1
   x ≡ a_2 mod n_2
